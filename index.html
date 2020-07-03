@@ -1,33 +1,70 @@
 <heead>
-    <link href="reset.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="normalize.css" rel="stylesheet" type="text/css" media="all" />
 
     <style>
         body {
             text-align: center;
             font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
             color: #333;
+            line-height: 1.5;
+        }
+
+        h3 {
+            text-align: center;
+            margin-top: 64px;
+        }
+
+        #tribute-info {
+            margin: 0 auto;
+            padding-bottom: 10px;
+        }
+
+        #time-line {
+            max-width: 540px;
+            text-align: left;
+            margin: 64px auto;
+        }
+
+        li {
+            margin: 10px;
         }
 
         #main {
             background: #eee;
             margin: 30px 10px 30px 10px;
             border-radius: 1%;
-            padding-top: 30px;
+            padding-top: 32px;
         }
 
         #title {
             font-size: 40px;
-            margin-bottom: 24px;
+            margin-bottom: 20px;
             font-weight: bold;
         }
 
         #img-div {
             background: white;
             padding: 10px;
+            margin: 20px 16px;
         }
 
         #image {
             max-width: 100%;
+        }
+
+        #img-caption {
+            margin: 10px 20px;
+        }
+
+        blockquote {
+            font-style: italic;
+            margin: 64px auto;
+            max-width: 540px;
+            text-align: left;
+        }
+
+        a {
+            color: #74638f;
         }
     </style>
 </heead>
@@ -42,7 +79,21 @@
         </figure>
 
         <div id="tribute-info">
+            <h3>Here's a time line of Dr. Borlaug's life:</h3>
+        
+            <ul id="time-line">
+                <li><strong>1914</strong> - Born in Cresco, Iowa</li>
+                <li><strong>1933</strong> - Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration"</li>
+                <li><strong>1935</strong> - Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this left scars on me."</li>
+                <li><strong>1937</strong> - Finishes university and takes a job in the US Forestry Service</li>
+            </ul>
 
+            <blockquote>
+                <p>"Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress."</p>
+                <cite>-- Indian Prime Minister Manmohan Singh</cite>
+            </blockquote>
+
+            <h3>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank">Wikipedia entry</a>.</h3>
         </div>
     </main>
 </body>
