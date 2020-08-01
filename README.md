@@ -2,7 +2,7 @@
 This is my recreation of the Tribute Page project from freecodecamp
 
 ## Problems
-Problems I ran into were getting the padding/margin for elements just right, as well as alignment
+I had to create various different element types, position them correctly, and style them correctly. I also had to make sure the webpage followed accessibility guidelines
 
 ## What I used
 HTML, CSS
